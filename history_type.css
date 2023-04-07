@@ -17,3 +17,6 @@
  { padding: 0px 0; margin-bottom: 3px; }
  .p-user_history-index .history-page.block
  { margin-bottom: .5rem; margin-left: 10%; }
+ /* убрал # в истории */
+ .b-user_history-line .id
+ { display: none; }
