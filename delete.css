@@ -1,35 +1,21 @@
-/* убрал блок истории в мобильном разрешении */
-.p-profiles .profile-head .c-history .entry:last-child:before
-{ display: none!important }
-.b-height_shortener .shade
-{ display: none!important }
-@media (max-width: 959px)
-{.p-profiles .profile-head .c-history
-{ display: none!important }!important }
-/* убрал подчеркивания */
-a, .edit_style .style_css .editor-collapse.active, .b-edit_styles .edit_style .style_css .editor-expand.active, .b-catalog_entry .cover:hover .title, .p-user_rates-index .l-content .b-options-floated span, .b-spoiler label, .p-profiles .profile-head .c-brief header .notice > span:last-child::after, .b-js-link, .b-form .cancel:last-child
-{ text-decoration: none!important; border-bottom: none!important }
-/* убрал # в истории */
-.b-user_history-line .id
-{ display: none!important }
-/* убрал активность на сайте */
-.p-profiles .profile-head .c-info .c-additionals
-{ display: none!important }
-/* убрал категории над достижениями */
-.p-profiles-show .achievements .header .title
-{ display: none!important }
-/* убрал график активности */
-.p-profiles-show.x1200 .profile-content .c-left:nth-child(2n+1)
-{ display: none!important }
-/* убрал никнейм */
-.p-profiles .profile-head .c-brief header h1
-{ font-size: 0 !important }
-/* убрал обложки в истории */
-.p-profiles .profile-head .c-history .entry img
-{ display: none!important }
-/* убрал друзья и клубы */
-.p-profiles .profile-content > .cc-2 .c-right .cc-2a
-{ display: none!important }
-/* убрал плашку параметров изображения */
-.b-image .marker
-{ display: none!important }
+/* убрал блок истории в мобильном разрешении */ .p-profiles .profile-head .c-history .entry:last-child:before { display: none!important; } .b-height_shortener .shade { display: none!important; } @media (max-width: 959px) {.p-profiles .profile-head .c-history { display: none!important; }!important; } 
+/* убрал подчеркивания */ a, .edit_style .style_css .editor-collapse.active, .b-edit_styles .edit_style .style_css .editor-expand.active, .b-catalog_entry .cover:hover .title, .p-user_rates-index .l-content .b-options-floated span, .b-spoiler label, .p-profiles .profile-head .c-brief header .notice > span:last-child::after, .b-js-link, .b-form .cancel:last-child { text-decoration: none!important; border-bottom: none!important; } 
+/* убрал # в истории */ .b-user_history-line .id { display: none!important; } 
+/* убрал активность на сайте */ .p-profiles .profile-head .c-info .c-additionals { display: none!important; } 
+/* убрал категории над достижениями */ .p-profiles-show .achievements .header .title { display: none!important; } 
+/* убрал график активности */ .p-profiles-show.x1200 .profile-content .c-left:nth-child(2n+1) { display: none!important; } 
+/* убрал никнейм */ .p-profiles .profile-head .c-brief header h1 { font-size: 0 !important; } 
+/* убрал обложки в истории */ .p-profiles .profile-head .c-history .entry img { display: none!important; } 
+/* убрал друзья и клубы */ .p-profiles .profile-content > .cc-2 .c-right .cc-2a { display: none!important; } 
+/* убрал плашку параметров изображения */ .b-image .marker { display: none!important; } 
+/* убрал "/" в поле ввода */ .l-top_menu-v2 .global-search .hotkey-marker, .cc-3 > .c-column:last-child { display: none!important; } 
+/* убрал рейтинг */ .p-animes-show .c-info-right .scores { display: none!important; } 
+/* убрал плашку на мой список из главной страницы */ .p-dashboards-show .v2 .fc-user-sections .f-user { display: none!important; } 
+/* убрал кнопку форума на главной страницы */ .p-dashboards-show .v2 .fc-user-sections .f-tags.ranobe-tags .forum-container .b-link_button { display: none!important; } 
+/* убрал кнопку форума на главной страницы */ .p-profiles .profile-content > .cc-2 > .c-column { display: none!important; } 
+/* убрал смайлики и оценки авторов рецензий */ .b-review-topic.is-review_review_author_details > .inner .review-info { display: none!important; } 
+/* убрал подписи ачивок */ .b-achievement .c-about .text { font-size: 0!important; } 
+/* убрал прессеты стилей */ .b-edit_styles .body_background .prepared-backgrounds { display: none!important; } 
+/* убрал аватарку */ .p-profiles .profile-head .c-brief .avatar img { display: none!important; } 
+/* убрал плитки франшиз и авторов */ .p-achievements-index .cc-franchises-genres .c-franchises .cc, .p-achievements-index .cc-authors .b-achievement { display: none!important; } 
+/* убрал подписи на постерах франшиз */ .p-achievements-index .c-franchises .b-badge[original-title]::before { display: none!important; }
