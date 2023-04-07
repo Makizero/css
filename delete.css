@@ -1,5 +1,2 @@
-/* убрал блок истории в мобильном разрешении */ .p-profiles .profile-head .c-history .entry:last-child:before { display: none; } .b-height_shortener .shade { display: none; } @media (max-width: 959px) {.p-profiles .profile-head .c-history { display: none; }; } 
-/* убрал подчеркивания */ a, .edit_style .style_css .editor-collapse.active, .b-edit_styles .edit_style .style_css .editor-expand.active, .b-catalog_entry .cover:hover .title, .p-user_rates-index .l-content .b-options-floated span, .b-spoiler label, .p-profiles .profile-head .c-brief header .notice > span:last-child::after, .b-js-link, .b-form .cancel:last-child { text-decoration: none; border-bottom: none; } 
-/* убрал # в истории */ .b-user_history-line .id { display: none; } 
-/* убрал активность на сайте */ .p-profiles .profile-head .c-info .c-additionals { display: none; } 
-/* убрал категории над достижениями */ .p-profiles-show .achievements .header .title { display: none; } 
+/* убрал плитки франшиз и авторов */ .p-achievements-index .cc-franchises-genres .c-franchises .cc, .p-achievements-index .cc-authors .b-achievement { display: none; } 
+/* убрал подписи на постерах франшиз */ .p-achievements-index .c-franchises .b-badge[original-title]::before { display: none; }
