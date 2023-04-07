@@ -1,0 +1,20 @@
+/* типа БОЛЬШАЯ кнопка */
+.p-animes-show .c-info-right .watch-online .b-link_button, .p-mangas-show .c-info-right .watch-online .b-link_button, .p-ranobe-show .c-info-right .watch-online .b-link_button, .b-comments .comments-hider:hover, .b-comments .comments-loader:active, .b-comments .comments-hider, .b-comments .comments-loader
+{ color: var(--color-menu-background)!important; background-color: var(--color-primary); text-shadow: none!important; font-weight: bold!important; }
+.b-comments .comments-loader:hover
+{ color: var(--color-menu-background)!important; background-color: var(--color-text-secondary)!important; text-shadow: none!important; font-weight: bold!important; }
+.b-form input[type=submit], .p-profiles-edit .account .change-password a, .p-user_rates .mylist-block + .block + .block + .block > .b-list > li > a, .b-link_button.dark
+{ color: var(--color-menu-background)!important; text-shadow: none!important; }
+.b-form input[type=submit]:hover, .p-profiles-edit .account .change-password a:hover, .p-user_rates .mylist-block + .block + .block + .block > .b-list > li > a:hover, .b-link_button.dark:hover
+{ color: var(--color-menu-background)!important; background-color: var(--color-text-secondary)!important; }
+.icon[data-v-dcc6b890]:before, .p-moderations-show .b-list .size:before, .p-moderations-show .b-list .size:after, .b-editable_grid thead th
+{ color: var(--color-primary)!important; }
+/* второстепенный цвет */
+.p-user_rates-index .l-content > .mylist a:hover::before, .b-achievement .c-about a.title, .b-input input, .p-user_rates-index .l-content > .mylist a span, .subheadline > a:last-child, .b-form .cancel, .subheadline .count:before, .subheadline .count:after, .b-input input, .b-input select, .b-input textarea, .b-shiki_editor .body .editor textarea, .p-user_rates-index .list-lines tr .name a
+{ color: var(--color-text-secondary)!important; }
+/* нейтральный шрифт */
+.b-club .info .number, .p-achievements-global table.statistics td, .p-achievements-index .p-achievements-global .level, .b-achievement .c-about .text, .b-catalog_entry .cover .misc span, .b-options-floated .link span.brackets, .b-coub .tags .tag, .b-anime_status_tag.studio[href], .b-catalog_entry .cover .title.two_lined, .bar.horizontal .line .bar-container .value, .b-catalog_entry .cover .misc, .b-status-line, .b-status-line .section.main .comments:before, .b-status-line .section.created_at time::before, .b-critique_votes::before, .b-status-line .section.changed_at time::before, .b-status-line .section.main .collection-size, .b-collection-topic > .inner .see-more .text .inner
+{ color: var(--color-text-disabled)!important; }
+/* цвет ссылок */
+.b-link
+{ color: #c47995; }
