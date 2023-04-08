@@ -1,2 +1,0 @@
-/* убрал плитки франшиз и авторов */ .p-achievements-index .cc-franchises-genres .c-franchises .cc, .p-achievements-index .cc-authors .b-achievement { display: none; } 
-/* убрал подписи на постерах франшиз */ .p-achievements-index .c-franchises .b-badge[original-title]::before { display: none; }
