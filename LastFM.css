@@ -1,0 +1,16 @@
+.header--overview.header--user .header-title-secondary, .stationlink::before, .header-metadata .header-metadata-display a, .header-new--artist .header-new-more-button::before, .header-new-bookmark-button::before, .header-new-playlink::before, .chartlist-play-button, .stationlink-list .stationlink::before
+{ filter: invert(25%) !important; }
+.listening-report-promo--week, .listening-report-promo + .listening-report-promo
+{ opacity: 73% !important; }
+.header .header-background
+{ opacity: 33%; }
+.lazy-features-page-bottom:first-child, .features-footer-item:nth-child(n+1)
+{ display: none !important }
+body
+{ color: #b0b0b0 !important; text-shadow: #000 0px 0px 10px !important; filter: brightness(80%) !important; }
+img, .grid-items-cover-image a, .grid-items-cover-image a:focus, .grid-items-cover-image a:hover
+{ filter: brightness(33%) !important; }
+img, .grid-items-cover-image a, .grid-items-cover-image a:focus, .grid-items-cover-image a:hover
+{ filter: brightness(33%) !important; }
+.grid-items-cover-image a, .grid-items-cover-image a:focus, .grid-items-cover-image a:hover
+{ color: #fff !important; text-shadow: #000 0px 0px 10px !important; }
