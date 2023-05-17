@@ -2,8 +2,8 @@
 /* Материальные поля ввода */ @import url(https://shiki-theme.web.app/import/md-textfields.css); 
 /* Изменения профиля v1.0 */ @import url(https://shiki-theme.web.app/import/profile-update.1.css); 
 /* Изменения профиля v1.1 */ @import url(https://shiki-theme.web.app/import/profile-update.1.1.css); 
-/* Фикс "Отображение дат в истории by kaur" */ @import url(https://makizero.github.io/css/history_data.css); 
-/* Отображение типа в истории */ @import url(https://makizero.github.io/css/history_type.css); 
+/* Фикс "Отображение дат в истории by kaur" */ @import url(https://makizero.github.io/css/Shikimori_history_data.css); 
+/* Отображение типа в истории */ @import url(https://makizero.github.io/css/Shikimori_history_type.css); 
 /* Темная тема окна CSS в настройках */ @import url(https://css-club.web.app/css/CodeMirror_dark.css); 
 /* Настройки переменных темы */ @media{:root{ --font-main: 'Comic Sans MS'; 
 /* Цвета текстов */ --color-text-primary: var(--color-primary); --color-text-secondary: #79a19b; --color-text-hint: var(--color-primary); --color-text-disabled: #acacb5; --color-overlay-text-hovered: rgba(233, 233, 234, 0.04); --color-overlay-text-selected: rgba(233, 233, 234, 0.08); --color-overlay-text-pressed: rgba(233, 233, 234, 0.12); 
@@ -15,7 +15,7 @@
 /* Цвета кнопок списков */ --color-planned: #5e8094; --color-onhold: #6b6e75; --color-watching: #5b7687; --color-rewatching: #5b7687; --color-completed: #6f7b68; --color-dropped: #78575d; 
 /* Обложка профиля */ --user-cover: url(); 
 /* Фон сайта */ --user-background: url(https://cdn.discordapp.com/attachments/702401492564443180/1019209925253144646/1-fingals-cave-island-of-staffa-scotland-thomas-moran-gigapixel-lines-scale-2_00x.jpg); }} 
-/* Коррекция цветов */ @import url(https://makizero.github.io/css/color.css); 
+/* Коррекция цветов */ @import url(https://makizero.github.io/css/Shikimori_color.css); 
 body, .b-input input, .b-input input:disabled, .b-input select, .b-input input[type=email], .b-input input[type=number], .b-input input[type=password], .b-input input[type=text], .b-input input[type=url] { text-decoration: none; text-shadow: 1px 2px 3px #4d1521!important; background-position: center 40%; } 
 /* Возвращаю оригинальный логотип */ .l-top_menu-v2 .logo-container .logo { display: block!important } 
 .l-top_menu-v2 .logo-container::after { display: none!important } 
