@@ -1,15 +1,4 @@
-/* ==UserStyle==
-@name           dark hentaichan
-@namespace      USO Archive
-@author         Dalsee
-@description    `Тёмная тема +подгон высоты изображения по размеру окна в читалке (не придется постоянно скроллить).//////////////////////////////////beta!`
-@version        20220612.2.1
-@license        CC0-1.0
-@preprocessor   uso
-==/UserStyle== */
-@document domain(hentaichan.live),
-domain(exhentai-dono.me) {
-	img {
+img {
 		max-width: auto !important;
 		max-height: 100vh !important;
 	}
@@ -323,5 +312,4 @@ domain(exhentai-dono.me) {
 	.editor_button {
     padding-right: 8px;
     filter: brightness(30%);
-}
 }
