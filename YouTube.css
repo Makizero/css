@@ -1,0 +1,79 @@
+#content-text.ytd-comment-renderer {
+	font-size: 1px !important;
+	line-height: 1px!important
+}
+#toolbar.ytd-comment-action-buttons-renderer,
+#vote-count-middle.ytd-comment-action-buttons-renderer,
+.it-button,
+.less-button.ytd-comment-renderer,
+.more-button.ytd-comment-renderer,
+a.yt-formatted-string,
+tp-yt-paper-button.ytd-subscribe-button-renderer,
+yt-formatted-string > .emoji.small-emoji,
+yt-icon.ytd-thumbnail-overlay-side-panel-renderer {
+	display: none !important
+}
+ytd-expander[should-use-number-of-lines][collapsed] > #content.ytd-expander {
+	overflow: visible !important;
+	-webkit-box-orient: horizontal !important
+}
+#video-title.ytd-grid-playlist-renderer,
+ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer {
+	line-height: 1.5rem !important;
+	font-weight: 100 !important;
+	max-height: 4rem !important;
+	min-height: 9rem !important;
+	overflow: visible !important;
+	text-transform: lowercase !important;
+	display: initial !important
+}
+#meta.ytd-grid-video-renderer {
+	padding-right: 1px !important
+}
+h3.ytd-grid-video-renderer {
+	margin: 1px 0 1px !important
+}
+ytd-thumbnail #thumbnail.ytd-thumbnail yt-img-shadow.ytd-thumbnail,
+ytd-thumbnail-overlay-side-panel-renderer {
+	background-color: linear-gradient(to right, transparent, var(--yt-spec-static-overlay-background-heavy)) !important;
+	align-items: end !important;
+	justify-content: flex-end !important
+}
+ img.yt-img-shadow,.yt-core-image,#header.ytd-c4-tabbed-header-renderer,ytd-playlist-thumbnail #thumbnail.ytd-playlist-thumbnail,yt-icon,ytd-thumbnail.ytd-grid-video-renderer {
+	filter: grayscale(1) !important
+}
+ytd-comment-thread-renderer {
+	display: block !important;
+	margin-bottom: var(--ytd-comment-thread-margin-bottom, 0px) !important
+}
+#header.ytd-comment-renderer {
+	margin-bottom: 0px !important
+}
+ytd-comment-action-buttons-renderer:not([use-comment-icon]) #reply-button-end.ytd-comment-action-buttons-renderer ytd-button-renderer.ytd-comment-action-buttons-renderer:not([is-icon-button]).ytd-comment-action-buttons-renderer,
+ytd-comment-action-buttons-renderer:not([use-comment-icon]) #reply-button.ytd-comment-action-buttons-renderer ytd-button-renderer.ytd-comment-action-buttons-renderer:not([is-icon-button]).ytd-comment-action-buttons-renderer {
+	--yt-button-padding: 0px 0px !important;
+	text-transform: inherit !important;
+	font-size: .7rem !important;
+	line-height: 0.8rem !important;
+}
+tp-yt-paper-button.ytd-button-renderer {
+	min-width: var(--yt-paper-button-min-width, var(--ytd-paper-button-min-width, 2em)) !important;
+	font-size: 10px !important
+}
+#author-text.yt-simple-endpoint.ytd-comment-renderer {
+	font-size: 0px!important
+}
+#author-text.yt-simple-endpoint.ytd-comment-renderer:after {
+	font-size: 5px;
+	content: "Аноним"!important
+}
+ytd-button-renderer yt-formatted-string.ytd-button-renderer {
+	font-size: 0px!important
+}
+ytd-button-renderer yt-formatted-string.ytd-button-renderer:after {
+	font-size: 20px;
+	content: "✚"!important
+}
+ytd-comment-action-buttons-renderer {
+	min-height: 0px!important
+}
