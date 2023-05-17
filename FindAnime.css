@@ -1,0 +1,10 @@
+.twitter, .reader-controls, html.dark .rightContent, .tiles-row__scroller, .media .media-left .user-name, .fa-film-alt:before, .d-sm-block, .d-md-block, .chapter .sub-info .date-added, .embed_video p, h2.title, .text-right, .col-md-4
+{ display: none !important }
+.col-md-8
+{ max-width: 32% !important; }
+.chapter-table-link .video-info
+{ font-size: 25px !important; margin-bottom: 5px !important; margin-top: 5px !important; width: max-content !important; }
+.zero-chapter .details, .video-info .details, .zero-chapter .text-additional
+{ font-size: 15px !important; }
+h1.title
+{ font-size: 0.9em !important; }
