@@ -1,20 +1,31 @@
-.header--overview.header--user .header-title-secondary, .stationlink::before, .header-metadata .header-metadata-display a, .header-new--artist .header-new-more-button::before, .header-new-bookmark-button::before, .header-new-playlink::before, .chartlist-play-button, .stationlink-list .stationlink::before
-{ filter: invert(25%) !important; }
-.listening-report-promo--week, .listening-report-promo + .listening-report-promo
-{ opacity: 73% !important; }
-.header .header-background
-{ opacity: 33%; }
-.lazy-features-page-bottom:first-child, .features-footer-item:nth-child(n+1)
-{ display: none !important }
-body
-{ color: #b0b0b0 !important; text-shadow: #000 0px 0px 10px !important; filter: brightness(80%) !important; }
-img, .grid-items-cover-image a, .grid-items-cover-image a:focus, .grid-items-cover-image a:hover
-{ filter: brightness(33%) !important; }
-img, .grid-items-cover-image a, .grid-items-cover-image a:focus, .grid-items-cover-image a:hover
-{ filter: brightness(33%) !important; }
-.grid-items-cover-image a, .grid-items-cover-image a:focus, .grid-items-cover-image a:hover
-{ color: #fff !important; text-shadow: #000 0px 0px 10px !important; }
-
+/* ==UserStyle==
+@name           Last.fm - Dark
+@namespace      USO Archive
+@author         DavidSipeki
+@description    `Dark theme with red accent for Last.fm`
+@version        20230505.11.42
+@license        CC-BY-NC-4.0
+@preprocessor   uso
+==/UserStyle== */
+/* ==UserStyle==
+@name           Last.fm - Dark
+@namespace      USO Archive
+@author         DavidSipeki
+@description    `Dark theme with red accent for Last.fm`
+@version        20220616.12.39
+@license        CC-BY-NC-4.0
+@preprocessor   uso
+==/UserStyle== */
+/* ==UserStyle==
+@name           Last.fm - Dark
+@namespace      USO Archive
+@author         DavidSipeki
+@description    `Dark theme with red accent for Last.fm`
+@version        20201202.11.14
+@license        CC-BY-NC-4.0
+@preprocessor   uso
+==/UserStyle== */
+@-moz-document domain("last.fm") {
 :root {
     --black: #000000;
     --darker: #0b0b0b;
@@ -911,4 +922,5 @@ body:not([data-whatinput="touch"]) .inbox-notifications .inbox-notifications__it
 }
 .full-bleed-ad-container, .sidebar-ad-container{
     background-color: var(--dark);
+}
 }
