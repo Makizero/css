@@ -1,10 +1,4 @@
-@document 
-domain(mangalib.me),
-domain(ranobelib.me),
-domain(animelib.me),
-domain(hentailib.me),
-domain(v1.yaoilib.me) {
-  .reader-revie, .reader-review-btn__text, .comment-item__rating, .comment-item__rating_positive, .comment-item__type, .comment__rating-value, .friends-item__remove, .m-menu__icon-marker, .mb-10, .my-10, .notify__count, .notify__count, .profile-info__title, .profile-stats, .user-genres
+.reader-revie, .reader-review-btn__text, .comment-item__rating, .comment-item__rating_positive, .comment-item__type, .comment__rating-value, .friends-item__remove, .m-menu__icon-marker, .mb-10, .my-10, .notify__count, .notify__count, .profile-info__title, .profile-stats, .user-genres
 { display: none!important }
 .reader-review-btn.is-full
 { background: none!important }
@@ -30,4 +24,3 @@ body
 { padding: 2px 18px!important }
 .progress
 { height: 16px!important }
-}
