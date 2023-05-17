@@ -1,0 +1,12 @@
+.InfoBanner_InfoBanner__image__5bp5j, .SearchSideFilter_SearchSideFilter__container__84cdw, .InfoBanner_InfoBanner__title__5bp5j, .InfoBanner_InfoBanner__subTitle__5bp5j, .InfoBanner_InfoBanner__bottomText__5bp5j, .StoreBanner_StoreBanner__storeBanner__1apu4, .Product_Coupons__coupons__qi54i, .StoreInfo_StoreInfo__storeInfo__1poxe, .ali-kit_Label__size-m__1n9sab, .ali-kit_Col__gutter-m-column__1lcv7b, .Reviews_ReviewItem__userInfo__ootd9, .Reviews_HelpfulRatePanel__wrapper__n6sle, .Reviews_ReviewItem__info__ootd9, .SimilarSuggestions_SimilarSuggestions__wrapper__1x1z6, .RecommendationFeed_RecommendationFeed__title__1wpqy, .Reviews_ReviewItem__date__ootd9, .product-snippet_ProductSnippet__shop__1ettdy, .product-snippet_ProductSnippet__ext__1ettdy
+{ display: none !important }
+.product-snippet_ProductSnippet__block__1ettdy + .product-snippet_ProductSnippet__block__1ettdy, .product-snippet_ProductSnippet__description__1ettdy > a + .product-snippet_ProductSnippet__block__1ettdy
+{ margin-top: 0px !important }
+.product-snippet_ProductSnippet__grid__1ettdy
+{ grid-row-gap: 0px !important; grid-column-gap: 2px !important; }
+.product-snippet_ProductSnippet__name__1ettdy
+{ height: 130px !important; max-height: 130px !important; overflow: visible !important; }
+.snow-price_SnowPrice__mainM__scpxsl
+{ display: block; font-size: 14px !important; font-weight: 100 !important; height: 0px; line-height: 0px; color: red !important; }
+.product-snippet_ProductSnippet__star__1ettdy
+{ color: silver !important; }
