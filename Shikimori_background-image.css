@@ -9,20 +9,20 @@
   background: center top / cover no-repeat;
   z-index: -2;}
 [data-special-bg="1"]::after {
-  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1108422369170698380/Martin_Rico_y_Ortega_-_Landscape_Study_Waterfall_-_A132_-_Hispanic_Society_of_America.jpg")}
+  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1108422369170698380/Martin_Rico_y_Ortega_-_Landscape_Study_Waterfall_-_A132_-_Hispanic_Society_of_America.jpg");
 [data-special-bg="2"]::after {
-  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1070309070466187315/ART-Ortega_Martin_Rico_y_A_View_Of_Santa_Maria_Della_Salute_Venice-gigapixel-art-scale-2_00x.jpg")}
+  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1070309070466187315/ART-Ortega_Martin_Rico_y_A_View_Of_Santa_Maria_Della_Salute_Venice-gigapixel-art-scale-2_00x.jpg");
 [data-special-bg="3"]::after {
-  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1030005901425397770/Vincent_van_Gogh_-_The_cottage_-_Google_Art_Project.jpg")}
+  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1030005901425397770/Vincent_van_Gogh_-_The_cottage_-_Google_Art_Project.jpg");
 [data-special-bg="4"]::after {
-  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1108421954865725550/William_Bradford_-_Coastal_Rocks_Nahant_A_Sketch_-_2005.1209_-_Museum_of_Fine_Arts.jpg")}
+  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1108421954865725550/William_Bradford_-_Coastal_Rocks_Nahant_A_Sketch_-_2005.1209_-_Museum_of_Fine_Arts.jpg");
 [data-special-bg="5"]::after {
-  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/966747249281474630/7297d8a4-1301-4536-b3ce-d6a6444c1b80_3000.jpg")}
+  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/966747249281474630/7297d8a4-1301-4536-b3ce-d6a6444c1b80_3000.jpg");
 [data-special-bg="6"]::after {
-  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1099396498107666552/Northeaster_-_The_Metropolitan_Museum_of_Art.jpg")}
+  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1099396498107666552/Northeaster_-_The_Metropolitan_Museum_of_Art.jpg");
 [data-special-bg="7"]::after {
-  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1108421954865725550/William_Bradford_-_Coastal_Rocks_Nahant_A_Sketch_-_2005.1209_-_Museum_of_Fine_Arts.jpg")}
+  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1108421954865725550/William_Bradford_-_Coastal_Rocks_Nahant_A_Sketch_-_2005.1209_-_Museum_of_Fine_Arts.jpg");
 [data-special-bg="8"]::after {
-  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1068113031701217310/E_Phillips_Fox_-_The_ferry_-_Google_Art_Project.jpg")}
+  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1068113031701217310/E_Phillips_Fox_-_The_ferry_-_Google_Art_Project.jpg");
 [data-special-bg="9"]::after {
   background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/740605121074823178/2017-12-27_3168246.JPG")}
