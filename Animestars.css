@@ -1,0 +1,10 @@
+.page__subcols, .fon-dob, .mylists-dob, .pmovie__header-list, .page__subtitle, .sect:not(:last-child), .multirating-wrapper, .pmovie__player-bottom, .page__ser, .pmovie__player-bottom, .pmovie__player-bottom-2, .sect--padding, .message-info, .d-grid-mob, .footer, .col-side::before, .col-side, .speedbar, .page__comments-title, .page__comments-info, .poster__img, .header__btn_k, .theme-toggle, .logo__title, .header .soc-channels, .header .header__btn, .header__btn-menu, .logo, .comment-item, .nav-show-notification, .soc-channels__item
+{ display: none; }
+#scrolltop
+{ width: 0px; height: 0px; line-height: 0px; font-size: 0px; }
+input[type=text], input[type=password], select, textarea
+{ width: 1%; float: right; }
+.header
+{ height: 20px; position: absolute; background-image: none; }
+.wrapper
+{ padding-top: 0px; }
