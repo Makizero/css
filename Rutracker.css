@@ -1,0 +1,6 @@
+.topic .td1, .post_head, .q, .sig-body, .c-head, .q-head, .post_btn_2
+{ display: none !important }
+img, img.icon1, select, input, a img, img.img-right, .thHead, img.smile
+{ filter: brightness(60%)!important; border: none !important }
+img.forum_icon, img.topic_icon, .folded, .folded2, .menu-root
+{ filter: invert(30%) !important; }
