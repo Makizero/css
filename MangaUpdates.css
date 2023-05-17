@@ -1,0 +1,10 @@
+a, a:hover, a:active
+{ color: #696969 !important; text-decoration: none !important; }
+.lettersbg
+{ background-image: none !important; }
+.top-banner, .left-side-bar, .left_right_content_bottom,.footer_background, .left-side-bar
+{ display: none !important; }
+img
+{ filter: brightness(55%) !important; }
+.specialtext
+{ color: black !important; }
