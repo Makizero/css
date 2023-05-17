@@ -1,0 +1,12 @@
+.VideoCard__title
+{ text-overflow: ellipsis; overflow: unset; text-transform: lowercase; padding-bottom: 35px; }
+.VideoCard__titleWrapper
+{ display: contents; }
+.VideoCard__thumbWrapper, .VideoInfoPanel__coverImage, .VideoRecomsItem__thumb
+{ filter: brightness(50%); }
+#mv_container
+{ margin: 0px auto 85px; }
+.mv_playlist._can_subscribe_header .mv_playlist_list, .VideoLayerInfo__recommended, .mv_playlist._can_subscribe_header .mv_playlist_header, .VideoCard__icon
+{ display: none; }
+:root
+{ --gold_200: silver; --gold_250: silver; --gray_20: silver; --gray_40: silver; --gray_100: silver; --gray_200: silver; --gray_300: silver; --green_light: silver; --light_blue_40: silver; --light_blue_80: silver; --light_blue_100: silver; --sky_60: silver; --sky_80: silver; --steel_gray_10: silver; --steel_gray_20: silver; --steel_gray_40: silver; --steel_gray_50: silver; --steel_gray_60: silver; --steel_gray_80: silver; --steel_gray_100: silver; --steel_gray_120: silver; --steel_gray_140: silver; --white: silver; --white_blue20: silver; --white_blue32: silver; --yellow_light: silver; --lavender_100: silver; --lavender_200: silver; --lavender_300: silver; }
