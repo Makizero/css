@@ -1,0 +1,26 @@
+.reader-revie, .reader-review-btn__text, .comment-item__rating, .comment-item__rating_positive, .comment-item__type, .comment__rating-value, .friends-item__remove, .m-menu__icon-marker, .mb-10, .my-10, .notify__count, .notify__count, .profile-info__title, .profile-stats, .user-genres
+{ display: none!important }
+.reader-review-btn.is-full
+{ background: none!important }
+.avatar_md, .chat-item__ava-wrap, .chat-item__message span, .chat-item__username, .comment__user, .discussion-creator, .discussion-item__creator, .friends-item__name, .ignore-user__avatar, .media-chapter__username, .mr-10, .h-list-item__user, .notification-item__username, .post-item .avatar, .team-profile-users__avatar, .team-profile-users__name, .thread-item__avatar, .thread-item__username, .top-user__avatar, .top-user__username
+{ opacity: 25%!important; filter: blur(3px)!important }
+body
+{ font-size: 11px!important; filter: brightness(85%)!important }
+.bookmark__list a
+{ padding: 0px 5px 5px!important }
+.comment-item__right
+{ padding-left: 0px!important }
+.comment__rating
+{ position: absolute!important; right: auto!important }
+.comment__rating-action svg
+{ width: 22px!important; height: 15px!important }
+.comment__rating-action
+{ padding: 6px 0px!important }
+.media-background + .container
+{ padding-top: 0px!important }
+.media-card-wrap
+{ padding: 1px!important }
+.profile-info__body
+{ padding: 2px 18px!important }
+.progress
+{ height: 16px!important }
