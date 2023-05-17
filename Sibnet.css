@@ -1,0 +1,4 @@
+div.sibnet_menu, .rtnew2023-root, .sibnet-links, .sibnet-footer, table.main td.under_content div.under_content_menu, table.main_content td.right_column, div.top_search_first_line_add_button:hover, a.tagsrang2, a.tagsrang0, a.tagsrang1, div.top_search_second_line, div.video_cell div.text span.ctview
+{ display: none; }
+div.video_cell div.text div.name a
+{ text-overflow: ellipsis; overflow: unset; text-transform: lowercase; padding-bottom: 65px; }
