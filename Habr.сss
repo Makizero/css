@@ -1,4 +1,2 @@
-@-moz-document domain("habr.com") {
 .tm-page__header, .tm-base-layout__header, .tm-header__container, .tm-page__sidebar, .tm-company-card, .tm-block_spacing-bottom, .tm-footer-menu, .tm-footer, .tm-scroll-top  {display:none!important;}
 .tm-page__main_has-sidebar, .tm-article-presenter__footer {max-width:100%!important;margin-right:0px!important;}
-}
