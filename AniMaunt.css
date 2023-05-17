@@ -1,0 +1,10 @@
+.owl-carousel.owl-drag .owl-item, .speedbar, .to-trailer, .img-wide img, .fright, .sect, .main .full-text, article .sub-title, .screens a img, .player-tabs-list, .slice-masked + .slice-btn, .screens, .full-comms, .btn-login, .sub-info, .side, .footer, .main .berrors, .layer, .read-releases[data-readmore]
+{ display: none; }
+.extra-series
+{ width: 100%; white-space: pre-line; filter: brightness(20%); }
+@media screen and (max-width: 950px) .center
+{ max-width: 1280px; }
+.fcols
+{ padding-bottom: 0px; margin-bottom: 0px; }
+body, .first-row
+{ background: black; }
