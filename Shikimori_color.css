@@ -1,6 +1,3 @@
-/* Замена базовых цветов */ 
-:root 
-{ --color-white: #c5c5c5!important; --color-info: #79afc4!important; --color-success: #79c47a!important; --color-warning: #c49979!important; --color-danger: #c47979!important; --color-negative: #c4799c!important; --color-neutral: #79b0c4!important; --color-positive: #96c479!important; --color-offtop: #c479a1!important; --color-violet: #ab79c4!important; --color-yellow: #c4c279!important; --color-magenta: #c479bc!important; } 
 /* Плашка спойлера */
 .b-spoiler_inline:not(.is-opened)
 { background-color: var(--color-primary); outline: var(--color-primary); }
@@ -8,32 +5,32 @@
 { background-color: var(--color-text-secondary); outline: var(--color-text-secondary); }
 /* Типа БОЛЬШАЯ кнопка */
 .p-animes-show .c-info-right .watch-online .b-link_button, .p-mangas-show .c-info-right .watch-online .b-link_button, .p-ranobe-show .c-info-right .watch-online .b-link_button, .b-comments .comments-hider:hover, .b-comments .comments-loader:active, .b-comments .comments-hider, .b-comments .comments-loader
-{ color: var(--color-menu-background)!important; background-color: var(--color-primary); text-shadow: none!important; font-weight: bold!important; }
+{ color: var(--color-menu-background) !important; background-color: var(--color-primary); text-shadow: none !important; font-weight: bold !important; }
 .b-comments .comments-loader:hover
-{ color: var(--color-menu-background)!important; background-color: var(--color-text-secondary)!important; text-shadow: none!important; font-weight: bold!important; }
+{ color: var(--color-menu-background) !important; background-color: var(--color-text-secondary) !important; text-shadow: none !important; font-weight: bold !important; }
 .b-form input[type=submit], .p-profiles-edit .account .change-password a, .p-user_rates .mylist-block + .block + .block + .block > .b-list > li > a, .b-link_button.dark
-{ color: var(--color-menu-background)!important; text-shadow: none!important; }
+{ color: var(--color-menu-background) !important; text-shadow: none !important; }
 .b-form input[type=submit]:hover, .p-profiles-edit .account .change-password a:hover, .p-user_rates .mylist-block + .block + .block + .block > .b-list > li > a:hover, .b-link_button.dark:hover
-{ color: var(--color-menu-background)!important; background-color: var(--color-text-secondary)!important; }
+{ color: var(--color-menu-background) !important; background-color: var(--color-text-secondary) !important; }
 .icon[data-v-dcc6b890]:before, .p-moderations-show .b-list .size:before, .p-moderations-show .b-list .size:after, .b-editable_grid thead th
-{ color: var(--color-primary)!important; }
+{ color: var(--color-primary) !important; }
 /* второстепенный цвет */
 .p-user_rates-index .l-content > .mylist a:hover::before, .b-achievement .c-about a.title, .b-input input, .p-user_rates-index .l-content > .mylist a span, .subheadline > a:last-child, .b-form .cancel, .subheadline .count:before, .subheadline .count:after, .b-input input, .b-input select, .b-input textarea, .b-shiki_editor .body .editor textarea, .p-user_rates-index .list-lines tr .name a
-{ color: var(--color-text-secondary)!important; }
+{ color: var(--color-text-secondary) !important; }
 /* Нейтральный шрифт */
 .b-club .info .number, .p-achievements-global table.statistics td, .p-achievements-index .p-achievements-global .level, .b-achievement .c-about .text, .b-catalog_entry .cover .misc span, .b-options-floated .link span.brackets, .b-coub .tags .tag, .b-anime_status_tag.studio[href], .b-catalog_entry .cover .title.two_lined, .bar.horizontal .line .bar-container .value, .b-catalog_entry .cover .misc, .b-status-line, .b-status-line .section.main .comments:before, .b-status-line .section.created_at time::before, .b-critique_votes::before, .b-status-line .section.changed_at time::before, .b-status-line .section.main .collection-size, .b-collection-topic > .inner .see-more .text .inner
-{ color: var(--color-text-disabled)!important; }
+{ color: var(--color-text-disabled) !important; }
 /* Цвет ссылок */
 .b-link
 { color: #c47995; }
-/* выделение надписи прочих ссылок */
+/* Выделение надписи прочих ссылок */
 .b-catalog_entry .cover .title.two_lined:hover, .p-profiles .profile-head .c-history .entry .title:hover, header.head h1:hover, .b-breadcrumbs a.b-link:hover, .b-db_entry-variant-list_item > .info .name .b-link:hover, .b-catalog_entry-tooltip .inner a.name:hover, .b-external_link a:hover, .l-footer .links a:hover, .b-catalog_entry .cover .title:hover, .b-collection-filters .b-block_list li:hover
-{ color: var(--link-hover-color)!important; }
+{ color: var(--link-hover-color) !important; }
 /* Покрасил кнопку совместимости */
 .b-stats_bar .compatibility .text:first-child.weak
-{ background-color: transparent!important; color: var(--color-text-hint)!important; }
+{ background-color: transparent !important; color: var(--color-text-hint) !important; }
 .b-stats_bar .compatibility .text:first-child.weak:hover
-{ background-color: var(--color-overlay-text-hovered)!important; color: var(--color-text-secondary)!important; }
+{ background-color: var(--color-overlay-text-hovered) !important; color: var(--color-text-secondary) !important; }
 .p-dashboards-show .v2 .db-update, .b-collection-topic > .inner .see-more .text .inner
 { background: var(--color-menu-background) }
 .p-dashboards-show .v2 .db-update:hover, .b-collection-topic > .inner .see-more .text .inner:hover
@@ -42,22 +39,22 @@
 { background: var(--color-menu-background-active) }
 /* Нейтральный фон */
 .b-anime_status_tag.studio[href], .b-anime_status_tag.studio[href]:hover, .b-coub .tags .tag:hover, .b-db_entry-variant-list_item > .info .line .b-anime_status_tag:last-child
-{ background-color: var(--color-surface-hover)!important; }
+{ background-color: var(--color-surface-hover) !important; }
 /* Нейтральный фон с наведением */
 .b-anime_status_tag.studio[href], .b-coub .tags .tag, .b-db_entry-variant-list_item > .info .line .b-anime_status_tag:last-child
-{ background-color: var(--color-surface)!important; border: 1px solid var(--color-border)!important; }
+{ background-color: var(--color-surface) !important; border: 1px solid var(--color-border) !important; }
 /* Скобки в сериях */
 .p-user_rates-index .list-lines tr td .episodes_total:before, .p-user_rates-index .list-lines tr td .episodes_total:after
-{ color: var(--color-text-secondary)!important; }
+{ color: var(--color-text-secondary) !important; }
 /* Цвет активного таба */
 .u-tabs [data-tab-switch].active
-{ background: none!important; border-color: var(--color-primary)!important; color: var(--color-text-secondary)!important; }
+{ background: none !important; border-color: var(--color-primary) !important; color: var(--color-text-secondary) !important; }
 /* Под никнеймом,в навигации по страницам и под студией */
 .p-profiles .profile-head .c-brief header .notice, .b-breadcrumbs, .p-animes-show .c-info-right .watch-online .kind, .p-mangas-show .c-info-right .watch-online .kind, .p-ranobe-show .c-info-right .watch-online .kind
-{ color: var(--color-text-hint)!important; }
+{ color: var(--color-text-hint) !important; }
 /* Полоса прокрутки */
 ::-webkit-scrollbar
-{ width: 17.5px!important; background-color: var(--color-menu-background) }
+{ width: 17.5px !important; background-color: var(--color-menu-background) }
 ::-webkit-scrollbar-thumb
 { background: var(--color-menu-search-fade) }
 .p-profiles .profile-head .c-brief .avatar
@@ -66,9 +63,9 @@
 { margin-bottom: 0rem; }
 /* Разделяющая черта */
 hr, .b-db_entry-variant-list_item::before
-{ height: 3px!important; background: linear-gradient(to left, transparent 0%, var(--color-border) 20%, var(--color-border) 80%, transparent 100%); }
+{ height: 3px !important; background: linear-gradient(to left, transparent 0%, var(--color-border) 20%, var(--color-border) 80%, transparent 100%); }
 /* Контрастный фон правок */
 .b-log_entry .change-details .field-changes .change .mod, .b-log_entry .change-details .field-changes .diff del, .b-log_entry .change-details .field-changes .change .del, .b-log_entry .change-details .field-changes .diff ins, .b-log_entry .change-details .field-changes .change .ins
-{ background: black!important }
+{ background: black !important }
 .b-log_entry .change-details .field-changes .diff ins, .b-log_entry .change-details .field-changes .change .ins
 { color: #5afc57; }
