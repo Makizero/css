@@ -37,3 +37,6 @@
 [data-special-bg="9"]::after {
   background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/740605121074823178/2017-12-27_3168246.JPG");
 }
+[data-special-bg="10"]::after {
+  background-image: url("https://cdn.discordapp.com/attachments/702401492564443180/1109035233933787156/ART-Pieter_Claesz_Vanitas_Still_Life-gigapixel-art-scale-2_00x.jpg");
+}
