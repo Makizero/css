@@ -106,6 +106,8 @@ advanced-options .sort-widget input[type=radio] + label:active
 { width: -webkit-fill-available!important }
 .list-container, .status-menu-container, .list-unit .list-status-title
 { width: inherit!important }
+body
+{ background-color: black!important; }
 body.ownlist
 { font-family: 'Comic Sans MS'!important; font-size: 9px!important; text-shadow: 1px 2px 3px #7b0c24!important; background: url(https://cdn.discordapp.com/attachments/702401492564443180/1076071578158243850/ART-Jan-Baptist-Weenix_Figures-among-ruins-gigapixel-art-scale-2_00x.jpg) no-repeat fixed center top / cover!important; background-blend-mode: soft-light, normal, normal; margin: 0 0 0 0; z-index: 1; margin-top: 0px; }
 body:before
