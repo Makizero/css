@@ -4,9 +4,9 @@
 .b-spoiler_inline:not(.is-opened):hover
 { background-color: var(--color-text-secondary); outline: var(--color-text-secondary); }
 /* Типа БОЛЬШАЯ кнопка */
-.b-reviews_navigation .review-controls .to-other-reviews,.p-animes-show .c-info-right .watch-online .b-link_button, .p-mangas-show .c-info-right .watch-online .b-link_button, .p-ranobe-show .c-info-right .watch-online .b-link_button, .b-comments .comments-hider:hover, .b-comments .comments-loader:active, .b-comments .comments-hider, .b-comments .comments-loader
+.b-link_button.blue,.p-animes-show .c-info-right .watch-online .b-link_button, .p-mangas-show .c-info-right .watch-online .b-link_button, .p-ranobe-show .c-info-right .watch-online .b-link_button, .b-comments .comments-hider:hover, .b-comments .comments-loader:active, .b-comments .comments-hider, .b-comments .comments-loader
 { color: var(--color-menu-background) !important; background-color: var(--color-primary); text-shadow: none !important; font-weight: bold !important; }
-.b-reviews_navigation .review-controls .to-other-reviews:hover,.b-comments .comments-loader:hover
+.b-link_button.blue:hover,.b-comments .comments-loader:hover
 { color: var(--color-menu-background) !important; background-color: var(--color-text-secondary) !important; text-shadow: none !important; font-weight: bold !important; }
 .b-form input[type=submit], .p-profiles-edit .account .change-password a, .p-user_rates .mylist-block + .block + .block + .block > .b-list > li > a, .b-link_button.dark
 { color: var(--color-menu-background) !important; text-shadow: none !important; }
