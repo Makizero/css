@@ -14,7 +14,7 @@ td
 .list-table .list-table-header .header-title.tags
 { width: 40%!important; }
 .list-table .list-table-header .header-title:last-child
-{ width: 15%!important; }
+{ width: 10%!important; }
 list-menu-float .icon-menu.setting:hover .text .link-list-setting
 { top: 0px; z-index: 3; }
 /* Ширина статуса тайтла */
@@ -35,7 +35,7 @@ list-menu-float .icon-menu.setting:hover .text .link-list-setting
 { background-color: #7c7a56!important }
 /* Колонка названия тайтла */
 .list-table .list-table-data .data.title .link
-{ font-size: 10px!important; font-weight: initial!important; display: block; overflow: hidden; max-height: 1.5em; line-height: 1.5em; }
+{ font-size: 12px!important; font-weight: initial!important; display: block; overflow: hidden; max-height: 1.5em; line-height: 1.5em; }
 /* Переименование колонки названия (часть 1).list-table .list-table-data .data.title .link {font-size: 0px!important}*/
 /* Переименование колонки названия (часть 2) .list-table .list-table-data .data.title .link:after {font-size: 9px!important;content: "Go to Page"!important;}*/
 /* Оценка, размер и цвет */
@@ -46,7 +46,7 @@ list-menu-float .icon-menu.setting:hover .text .link-list-setting
 { padding-left: 150px!important; padding-right: 150px!important }
 /* Размер шрифта колонки тегов*/
 .list-table .list-table-data .data.tags
-{ font-size: 15px!important; color: #79a19b!important; }
+{ font-size: 12px!important; color: #79a19b!important; }
 .list-menu-float
 { position: inherit; display: -webkit-box; }
 .list-table .list-table-header .header-title
@@ -122,5 +122,5 @@ body.ownlist, a, .list-table .list-table-data a:not(.edit-disabled), .list-table
 /* Полоса колонок таблицы */
 .list-table .list-table-header .header-title, .list-table .more-info
 { text-align: center!important; background: none!important }
-.list-table .list-table-data .data.tags, .list-table .list-table-data .data.magazine
+.list-table .list-table-data .data.tags
 { text-align: right!important }
