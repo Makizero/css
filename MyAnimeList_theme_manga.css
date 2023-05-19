@@ -88,7 +88,7 @@ advanced-options .sort-widget input[type=radio] + label:active
 { background-color: #535861!important }
 /* Фон таблиц */
 .list-container
-{ background-repeat: round; background-color: rgb(83 88 97 / 10%)!important; background-size: 22px 8px!important; background-image: repeating-linear-gradient(152deg, rgb(83 88 97 / 40%) 0, rgb(83 88 97 / 30%) 1px, rgb(83 88 97 / 80%) 0, rgb(90, 95, 104) 10%)!important; }
+{ background-repeat: round; background-color: rgb(83 88 97 / 10%)!important; background-size: 35px 8px!important; background-image: repeating-linear-gradient(152deg, rgb(83 88 97 / 40%) 0, rgb(83 88 97 / 30%) 1px, rgb(83 88 97 / 80%) 0, rgb(90, 95, 104) 10%)!important; }
 /* Серые, чередующиеся полосы; фон иконок */
 .list-table > tbody:nth-of-type(2n + 1), .icon-menu
 { background-color: rgb(0 0 0 / 15%) }
