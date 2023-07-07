@@ -34,8 +34,8 @@ body, .b-input input, .b-input input:disabled, .b-input select, .b-input input[t
 /* Строка между постерами-эскизами в списке */ .cc-5 > .c-column { margin-bottom: 10px!important; } 
 .p-animes_collection-index.x1200 .cc-entries > .c-column { margin-bottom: 10px!important; } 
 /* Строка между постерами в bb коде */ .cc-8-g15 > .c-column { margin-bottom: 0!important; } 
-/* Полосы аниме и манги выше */ .p-profiles .profile-head .c-brief { height: 70px!important; } 																									 					 								 
-/* Паттерн */ .l-page { background-repeat: round; background-size: 22px 8px; background-image: repeating-linear-gradient(152deg, rgb(83 88 97/ 40%) 0, rgb(83 88 97/ 30%) 1px, rgb(83 88 97/ 80%) 0, rgb(83 88 97/ 10%) 10%) } 
+/* Полосы аниме и манги выше */ .p-profiles .profile-head .c-brief { height: 70px!important; } 																									 		
+/* Паттерн */ .l-page { background-repeat: round; background-size: 35px 8px; background-image: repeating-linear-gradient(152deg, rgb(83 88 97/ 40%) 0, rgb(83 88 97/ 30%) 1px, rgb(83 88 97/ 80%) 0, rgb(83 88 97/ 10%) 10%) }
 .p-profiles-show .b-stats_bar.anime .bar .second { background: linear-gradient( 90deg, rgb(110 143 168/ 70%) 30%, var(--color-border)); } 
 .p-profiles-show .b-stats_bar.manga .bar .second { background: linear-gradient( 90deg, rgb(110 141 139/ 70%) 30%, var(--color-border)); } 
 .p-profiles-show .b-stats_bar .bar div, .b-achievement .c-about .progress { background-size: 40px 20px; background-image: repeating-linear-gradient(to right, #535861, #535861 2px, #535861 1px, rgb(83 88 97/ 50%)); } 
@@ -50,10 +50,9 @@ body, .b-input input, .b-input input:disabled, .b-input select, .b-input input[t
 .l-page { backdrop-filter: blur(1px)!important; } 
 .l-top_menu-v2 .menu-icon.contest::after, .l-top_menu-v2 .menu-icon.mail:after, .b-options-floated a span.brackets, .b-options-floated .link span.brackets { color: var(--color-black); text-shadow: none!important; } 
 /* Фикс слова "общие" в достижениях под общую стилистику */ .headline { padding: 16px; margin: 0 -16px; background-color: transparent; border: 0; font-size: .875rem; font-weight: 700; line-height: 1rem; text-transform: uppercase; } 
-
-/* Затемнение изображений */ .p-profiles-show .achievements .cc-3 > .c-column, .u-tabs [data-tab], .b-image.b-poster img, .b-achiev.smiley, image, .p-achievements-index .c-franchises .b-badge img, .b-badge img, .b-catalog_entry .cover .image-decor img, .smiley { filter: brightness(70%); } 
+/* Затемнение изображений */ .b-db_entry-poster,.b-db_entry-variant-list_item .image img,.b-catalog_entry .cover .image-decor img,.inner header img,.b-user16 img,.p-animes-show .studio-logo,.b-club .logo,.b-user.avatar img,.b-badge img,.b-achievement img,.b-menu_logo img { filter: brightness(70%)!important; } 
 /* Под никнеймом,в навигации по страницам и под студией */ .p-profiles .profile-head .c-brief header .notice, .b-breadcrumbs, .p-animes-show .c-info-right .watch-online .kind, .p-mangas-show .c-info-right .watch-online .kind, .p-ranobe-show .c-info-right .watch-online .kind { font-size: .875rem!important; } 
-.p-profiles .profile-head .c-brief { text-align: center!important; } div.notice span:nth-child(2) { font-size: 0; } div.notice span:nth-child(2)::before { content: 'Маг Потерь'; font-size: .875rem; } div.notice span:nth-child(2)::after { content: '|'; font-size: .875rem; } div.notice span:nth-child(3) { font-size: 0; } div.notice span:nth-child(3)::before { content: '30-го уровня'; font-size: .875rem; } 
+.p-profiles .profile-head .c-brief { text-align: center!important; } div.notice span:nth-child(2) { font-size: 0; } div.notice span:nth-child(2)::before { content: 'Маг Потерь'; font-size: .875rem; } div.notice span:nth-child(2)::after { content: '|'; font-size: .875rem; } div.notice span:nth-child(3) { font-size: 0; } div.notice span:nth-child(3)::before { content: '31-го уровня'; font-size: .875rem; } 
 /* Переименовать блог "обо мне" в "избранное" */ .b-stats_bar .stat_names .stat_name .size:before, .profile-content .about .subheadline { font-size: 0!important; } 
 .profile-content .about .subheadline:before { content: " ИЗБРАННОЕ ❤"!important; color: var(--color-text-secondary)!important; font-size: 16px!important; } 
 /* Настройки плашки заметок на постере */ .p-user_rates-index .list-posters .user_rate > .text, .p-collections-show .b-catalog_entry .image-decor .text { background: var(--color-background)!important; color: cornsilk!important; font-size: 10px!important; backdrop-filter: blur(1px); } 
@@ -73,11 +72,12 @@ body, .b-input input, .b-input input:disabled, .b-input select, .b-input input[t
 /* Замена названия раздела Отложено */ .p-profiles-show .profile-head .c-info .stat_name[data-type="on_hold"] a { font-size: 0; } 
 .p-profiles-show .profile-head .c-info .stat_name[data-type="on_hold"] a .size { font-size: 14px; } 
 .stat_names .stat_name > a::before { float: left; } 
-.p-profiles-show .profile-head .c-info .stat_name[data-type="on_hold"] a:after { content: "Брошено"; font-size: 14px; float: left; margin-right: 5px; } 
+.p-profiles-show .profile-head .c-info .stat_name[data-type="on_hold"] a:after { content: "Брошено"; font-size: 10px; float: left!important; margin-right: 5px; } 
+/* Вернул порядок отображения итогов типа и количества в списках */ .b-stats_bar .stat_names .stat_name a { display: initial; }
 /* Замена названия раздела Брошено */ .p-profiles-show .profile-head .c-info .stat_name[data-type="dropped"] a { font-size: 0; } 
 .p-profiles-show .profile-head .c-info .stat_name[data-type="dropped"] a .size { font-size: 14px; } 
 .stat_names .stat_name > a::before { float: left; } 
-.p-profiles-show .profile-head .c-info .stat_name[data-type="dropped"] a:after { content: "Корзина"; font-size: 14px; float: left; margin-right: 5px; } 
+.p-profiles-show .profile-head .c-info .stat_name[data-type="dropped"] a:after { content: "Корзина"; font-size: 10px; float: left; margin-right: 5px; } 
 /* Количество плиток до 4 на главной странице */ .p-dashboards-show .v2 .news_wall > .b-news_wall-topic { margin-bottom: 48px; margin-left: 50px; width: calc(23.333333% - 20px); } 
 /* Расположение ссылок на главной странице */ .p-dashboards-show .v2 .fc-user-sections .f-sections .fc-tags { display: inline-flex; text-align: end; } 
 /* Shikimori > user > achievements */ @media (min-width: 1280px) {.p-achievements-index .cc-achievements, .p-achievements-index .cc-authors .b-achievement { grid-template-columns: repeat(7, 1fr); } } 
@@ -111,7 +111,6 @@ body, .b-input input, .b-input input:disabled, .b-input select, .b-input input[t
 /* Убрал подписи на постерах франшиз */ .p-achievements-index .c-franchises .b-badge[original-title]::before { display: none; } 
 /* Закрепил размер постеров на плитках */.p-profiles-show .about a .b-image { display: block; }
 /* ПАРАМЕТРЫ ДОСТИЖЕНИЙ */
-
 .b-badge[data-progress='100']:after, .b-badge[data-progress='0']:after
 { content: none }
 .b-badge.level-0:not(:hover) img
@@ -136,9 +135,9 @@ body, .b-input input, .b-input input:disabled, .b-input select, .b-input input[t
 { display: none!important }
 @media(max-width:959px)
 { .cc-3 > .c-column
- { margin-bottom: 0; line-height: 1.65; position: relative; float: left; margin-right: 0; width: 49.75% }
- .b-achievement.is-badge:before
- { font-size: 13px } }
+{ margin-bottom: 0; line-height: 1.65; position: relative; float: left; margin-right: 0; width: 49.75% }
+.b-achievement.is-badge:before
+{ font-size: 13px }}
 @media(max-width:767px)
 { .cc-3 > .c-column
- { display: none!important; } }
+{ display: none!important; }}
